@@ -36,3 +36,9 @@ GitHub：[http://github.com/{{ site.github }}](http://github.com/{{ site.github 
 
 
 @cnblogs：[lyy_g](http://blog.csdn.net/lyy_g)
+
+----
+
+[![新浪微博](https://github.com/Leeegal/Leeegal.github.io/blob/master/assets/sina/lg.png)](https://weibo.com/6031065827/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)
+
+----
