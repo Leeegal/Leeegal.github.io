@@ -89,4 +89,4 @@ COCOMO模型可以分为三个层次：
     | ·         计算工作量 |  |
     | ·         事后总结, 并提出过程改进计划 |  |
 
-    ![](assets/Software/psp2.1.png)
+    ![](https://github.com/Leeegal/Leeegal.github.io/blob/master/assets/Software/psp2.1.png)
