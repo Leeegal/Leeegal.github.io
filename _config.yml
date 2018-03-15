@@ -2,16 +2,15 @@ future: true
 permalink: /:title/
 url: http://Leeegal.github.io
 name: Lee G
-author: G Lee
+author: 果哥
 qq: 1016545929
 email: liguo6@mail2.sysu.edu.cn
-
-duoshuo: Lee G
+duoshuo: 果哥
 beian: 
 cnzz: 
 weibo: 吾有一弟名柳生
-github: Leegal
-about: "这里是 Lee G 的个人博客，创建于 2018 年。"
-
-safe: true
+github: Leeegal
 paginate: 20
+highlighter: rouge
+truncate: true
+about: "果哥(Leeegal)"
