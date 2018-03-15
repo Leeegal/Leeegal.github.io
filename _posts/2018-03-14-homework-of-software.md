@@ -1,9 +1,14 @@
 ﻿---
 layout: post
+
 title: Homework1 for 系统分析与设计
+
 date: 2018-03-15 09:30:30
+
 categories: Software
+
 tags: 博客
+
 excerpt: Software
 ---
 # 简单题
@@ -85,13 +90,15 @@ COCOMO模型可以分为三个层次：
 # 解释 PSP 各项指标及技能要求
 
 
-* 阅读《现代软件工程》的 PSP: Personal Software Process 章节。 http://www.cnblogs.com/xinz/archive/2011/11/27/2265425.html
+* 阅读《现代软件工程》的 PSP: Personal Software Process 章节。 
+  http://www.cnblogs.com/xinz/archive/2011/11/27/2265425.html
 
-* 按表格 PSP 2.1， 了解一个软件工程师在接到一个任务之后要做什么，需要哪些技能，解释你打算如何统计每项数据？ （期末考核，每人按开发阶段提交这个表）
+* 按表格 PSP 2.1， 了解一个软件工程师在接到一个任务之后要做什么，需要哪些技能，解释你打算如何统计每项数据？ 
+ （期末考核，每人按开发阶段提交这个表）
 
 * 统计数据可以按照下表统计 
 
-    | Personal Software Process Stages | Time (%)  |
+    | Personal Software Process Stages |    Time (%)  |
     | ------ | ------ |
     | 计划 |  |
     | ·         估计这个任务需要多少时间 |  |
