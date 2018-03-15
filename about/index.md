@@ -1,4 +1,4 @@
----
+﻿---
 title: 关于
 layout: page
 comments: no
@@ -36,9 +36,3 @@ GitHub：[http://github.com/{{ site.github }}](http://github.com/{{ site.github 
 
 
 @cnblogs：[lyy_g](http://blog.csdn.net/lyy_g)
-
-----
-
-[![新浪微博](http://service.t.sina.com.cn/widget/qmd/1831504255/02345c5a/1.png)](https://weibo.com/u/6031065827?refer_flag=1005055010_P)
-
-----
