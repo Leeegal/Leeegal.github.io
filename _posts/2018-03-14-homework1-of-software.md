@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Homework1 for 系统分析与设计
+title: Homework for 系统分析与设计
 date: 2018-03-15 09:30:30
 categories: Software
 tags: 博客
