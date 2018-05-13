@@ -39,6 +39,6 @@ GitHub：[http://github.com/{{ site.github }}](http://github.com/{{ site.github 
 
 ----
 
-![![新浪微博](\assets\sina\lg.png)](https://weibo.com/6031065827/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)
+[![新浪微博](\assets\sina\lg.png)](https://weibo.com/6031065827/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1)
 
 ----
