@@ -18,3 +18,6 @@ Web pages please visit [Leeegal.github.io](http://Leeegal.github.io).
 * [Homework6 for Software](_posts/2018-05-04-homework6.md)
 
 * [Homework7 for Software](_posts/2018-05-12-homework7.md)
+
+* [Homework8 for Software](_posts/2018-06-03-homework8.md)
+
