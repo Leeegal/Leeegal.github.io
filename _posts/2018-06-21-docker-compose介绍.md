@@ -127,6 +127,7 @@ services:
   - 还可以使用单方面的 -v /path 
   - 这样的话 就相当于 一个匿名映射， 其实还是在本机有对应目录的。
   - 使用docker inspect -f {{.Volumes}} /path 可以看到详细信息
+  
 ### docker-compose 需要注意的
   - 不要把 docker 当做数据容器来使用，数据一定要用 volumes 放在容器外面
   - 不要把 docker-compose 文件暴露给别人， 因为上面有你的服务器信息
