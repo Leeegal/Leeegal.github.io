@@ -10,16 +10,16 @@ excerpt: Software
 参考链接:[https://docs.docker.com/compose/gettingstarted/](https://docs.docker.com/compose/gettingstarted/)
         [https://www.cnblogs.com/neptunemoon/p/6512121.html](https://www.cnblogs.com/neptunemoon/p/6512121.html)
 
-##### docker compose ?
+### docker compose ?
 
 docker-compose 是一个用来把 docker 自动化的东西。
 有了 docker-compose 你可以把所有繁复的 docker 操作全都一条命令，自动化的完成。
 
-##### 环境
+### 环境
 
 确保您已经安装了[Docker Engine](https://docs.docker.com/install/)和[Docker compose](https://docs.docker.com/compose/install/)。您不需要安装Python或Redis，因为它们都由Docker images提供。
 
-##### docker-compose 常用命令
+### docker-compose 常用命令
 
 ```
 Commands:
@@ -68,7 +68,7 @@ stop 停止服务
 up 创建并启动容器
 ```
 
-##### docker-compose 如何配置
+### docker-compose 如何配置
 先看看一个 docker-compose.yml
 ```
 version: '2'
@@ -132,7 +132,7 @@ services:
   这样的话 就相当于 一个匿名映射， 其实还是在本机有对应目录的。
 
   使用docker inspect -f {{.Volumes}} /path 可以看到详细信息
-##### docker-compose 需要注意的
+### docker-compose 需要注意的
   - 不要把 docker 当做数据容器来使用，数据一定要用 volumes 放在容器外面
   - 不要把 docker-compose 文件暴露给别人， 因为上面有你的服务器信息
   - 多用 docker-compose 的命令去操作， 不要用 docker 手动命令&docker-compose 去同时操作
