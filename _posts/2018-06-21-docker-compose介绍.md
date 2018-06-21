@@ -103,17 +103,21 @@ services:
   顺序不是重要的,我们看见wordpress中有个 depends_on: 的属性
 - depends_on: 依赖
   代表wordpress 依赖于
+
   ```
   - mariadb
   - nginx
   ```
+
   两个服务， 所以他们两个会先启动
 - image: 镜像
   就是你的 docker 镜像
   我们用
+
   ```
   docker search mariadb
   ```
+
   找到我们需要的镜像
 - environment 环境变量
   这个是在好理解不过的了。
@@ -131,7 +135,7 @@ services:
   这样的话 就相当于 一个匿名映射， 其实还是在本机有对应目录的。
 
   使用docker inspect -f {{.Volumes}} /path 可以看到详细信息
-- docker-compose 需要注意的
+##### docker-compose 需要注意的
   1、不要把 docker 当做数据容器来使用，数据一定要用 volumes 放在容器外面
   2、不要把 docker-compose 文件暴露给别人， 因为上面有你的服务器信息
   3、多用 docker-compose 的命令去操作， 不要用 docker 手动命令&docker-compose 去同时操作
