@@ -103,6 +103,7 @@ services:
 ```
 - nginx 和 mariadb，wordpress 是要启动的三个服务
   顺序不是重要的,我们看见wordpress中有个 depends_on: 的属性
+  
 - depends_on: 依赖
   代表wordpress 依赖于
   - mariadb
@@ -116,6 +117,7 @@ services:
   docker search mariadb
   ```
   找到我们需要的镜像
+
 - environment 环境变量
   这个是在好理解不过的了。
   不过这和我们程序语言设计层面的还是不一样的，这个是容器层面的环境变量。
