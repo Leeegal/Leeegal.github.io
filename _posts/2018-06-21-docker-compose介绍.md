@@ -102,34 +102,36 @@ services:
                 - /root/wp_yunlan/php:/bitnami/php
 ```
 - nginx 和 mariadb，wordpress 是要启动的三个服务
+
   顺序不是重要的,我们看见wordpress中有个 depends_on: 的属性
-  
 - depends_on: 依赖
+
   代表wordpress 依赖于
   - mariadb
   - nginx
-
   两个服务， 所以他们两个会先启动
 - image: 镜像
+
   就是你的 docker 镜像
   我们用
   ```
   docker search mariadb
   ```
   找到我们需要的镜像
-
 - environment 环境变量
+
   这个是在好理解不过的了。
   不过这和我们程序语言设计层面的还是不一样的，这个是容器层面的环境变量。
   如果我们写程序做一些逻辑判断的时候，肯定会使用
   比如我们判断现在的编译器，我们会使用
   #if __GNUC__ 或者 #if _MSC_VER
   相应的，我们的容器里面肯定也有这样的逻辑，我们经常使用环境变量来传值，或者定义一个行为。写过程序的人都懂。
-
 - ports 端口映射
+
   映射本机还有镜像的端口。这个没有什么好说的。
 
 - volumes 文件映射
+
   有两种格式，
   可以对应 docker 操作中的 -v my/path/:/docker/path
   还可以使用单方面的 -v /path 
