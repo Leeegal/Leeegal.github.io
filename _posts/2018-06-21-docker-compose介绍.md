@@ -115,7 +115,6 @@ services:
   ```
   docker search mariadb
   ```
-
   找到我们需要的镜像
 - environment 环境变量
   这个是在好理解不过的了。
@@ -124,15 +123,17 @@ services:
   比如我们判断现在的编译器，我们会使用
   #if __GNUC__ 或者 #if _MSC_VER
   相应的，我们的容器里面肯定也有这样的逻辑，我们经常使用环境变量来传值，或者定义一个行为。写过程序的人都懂。
+
 - ports 端口映射
   映射本机还有镜像的端口。这个没有什么好说的。
+
 - volumes 文件映射
   有两种格式，
   可以对应 docker 操作中的 -v my/path/:/docker/path
   还可以使用单方面的 -v /path 
   这样的话 就相当于 一个匿名映射， 其实还是在本机有对应目录的。
-
   使用docker inspect -f {{.Volumes}} /path 可以看到详细信息
+
 ### docker-compose 需要注意的
   - 不要把 docker 当做数据容器来使用，数据一定要用 volumes 放在容器外面
   - 不要把 docker-compose 文件暴露给别人， 因为上面有你的服务器信息
